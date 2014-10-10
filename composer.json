@@ -1,0 +1,17 @@
+{
+    "name":"nikmauro/cms39_htmLawed",
+    "description":"cms39_htmLawed - Adjusted to use static functions for autoloading",
+    "keywords":[ "html", "strip", "HTMLtidy", "tags", "sanitize" ],
+    "homepage":"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/",
+    "license":[
+        "GPL-2.0+",
+        "LGPL-3.0"
+    ],
+    "version":"1.1.18",
+    "require":{
+        "php":">=5.3.3"
+    },
+     "autoload": {
+        "classmap": ["htmLawed.php"]
+    }
+}

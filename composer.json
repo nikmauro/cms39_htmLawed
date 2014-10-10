@@ -1,6 +1,6 @@
 {
-    "name":"nikmauro/cms39_htmLawed",
-    "description":"cms39_htmLawed - Adjusted to use static functions for autoloading",
+    "name":"nikmauro/cms39_htm-lawed",
+    "description":"cms39 htmLawed - Adjusted to use static functions for autoloading",
     "keywords":[ "html", "strip", "HTMLtidy", "tags", "sanitize" ],
     "homepage":"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/",
     "license":[

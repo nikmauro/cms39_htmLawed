@@ -1,11 +1,10 @@
 <?php
-
+ 
 /*
 htmLawed 1.1.18, 2 August 2014
-Copyright Santosh Patnaik
+Copyright Santosh Patnaik 
 Dual licensed with LGPL 3 and GPL 2+
 A PHP Labware internal utility; www.bioinformatics.org/phplabware/internal_utilities/htmLawed
-
 See htmLawed_README.txt/htm
 */
 

@@ -7,7 +7,7 @@ Dual licensed with LGPL 3 and GPL 2+
 A PHP Labware internal utility - http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/beta 
 
 See htmLawed_README.txt/htm 
-*/ 
+*/  
 
 function htmLawed($t, $C=1, $S=array()){ 
 $C = is_array($C) ? $C : array(); 

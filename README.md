@@ -13,3 +13,6 @@ single, 48 kb file
 simple HTML Tidy alternative
 free and licensed under LGPL v3 and GPL v2+
 use to filter, secure & sanitize HTML in blog comments or forum posts, generate XML-compatible feed items from web-page excerpts, convert HTML to XHTML, pretty-print HTML, scrape web-pages, reduce spam, remove XSS code, etc.
+
+**** 1.2.beta.7, 19 January 2015 release **** 
+Fix for a bug in cleaning of soft-hyphens in URL values, etc. 

@@ -346,11 +346,9 @@ $c = isset($C['schemes'][$c]) ? $C['schemes'][$c] : $C['schemes']['*'];
 static $d = 'denied:'; 
 if(isset($c['!']) && substr($p, 0, 7) != $d){$p = "$d$p";} 
 if(isset($c['*']) or !strcspn($p, '#?;') or (substr($p, 0, 7) == $d)){return "{$b}{$p}{$a}";} // All ok, frag, query, param 
-/*
 if(preg_match('`^([^:?[@!$()*,=/\'\]]+?)(:|&#(58|x3a);|%3a|\\\\0{0,4}3a).`i', $p, $m) && !isset($c[strtolower($m[1])])){ // Denied prot 
- return "{$b}{$d}{$p}{$a}"; 
+ return "{$b}{$p}{$a}"; 
 } 
-*/
 if($C['abs_url']){ 
  if($C['abs_url'] == -1 && strpos($p, $C['base_url']) === 0){ // Make url rel 
   $p = substr($p, strlen($C['base_url'])); 

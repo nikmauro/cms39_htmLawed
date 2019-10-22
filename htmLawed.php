@@ -727,3 +727,4 @@ function hl_version(){
 // version
 return '1.2.5';
 }
+
